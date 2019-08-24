@@ -1,0 +1,40 @@
+table {
+  border: 1px solid black;
+  border-width: 1px 0 0 1px;
+  border-spacing: 0;
+}
+th, td {
+  text-align: right;
+  vertical-align: top;
+              padding: 4px;
+              border: 1px solid blue;
+              border-width: 0 1px 1px 0;
+}
+tr th:first-child + th + th,
+tr td:first-child + td + td {
+  text-align: left;
+}
+
+th {
+  background-color: #ddffff;
+}
+
+.Racket {
+  background-color: #ffffdd;
+  font-weight: bold;
+}
+
+.notracket {
+background: none;
+            text-align: left;
+  font-size: 80%;
+  max-width: 15em;
+}
+
+.linkdot {
+background: none;
+            text-align: center;
+  font-size: 80%;
+  max-width: 20em;
+}
+
