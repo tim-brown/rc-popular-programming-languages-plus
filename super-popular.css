@@ -66,42 +66,42 @@ background: none;
   color: orange;
 }
 
-.p0:link {
+.p0 :link {
   color: red;
 }
 
-.p1:link {
+.p1 :link {
   color: orange;
 }
 
-.p2:link {
+.p2 :link {
   color: yellow;
 }
 
-.p3:link {
+.p3 :link {
   color: red;
 }
 
-.p4:link {
+.p4 :link {
   color: orange;
 }
 
-.p0:visited {
+.p0 :visited {
   color: #aa0000;
 }
 
-.p1:visited {
+.p1 :visited {
   color: #aa8800;
 }
 
-.p2:visited {
+.p2 :visited {
   color: #aaaa00;
 }
 
-.p3:visited {
+.p3 :visited {
   color: #aa0000;
 }
 
-.p4:visited {
+.p4 :visited {
   color: #aa8800;
 }
