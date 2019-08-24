@@ -92,8 +92,9 @@
                             (a ((href ,(format "https://rosettacode.org/?curid=~a#~a"
                                                (hash-ref n 'pageid) l)))
                                bullet)))))
-                (priority-class (string-append "p" (number->string (- (length other-languages)
-                                                                      (length dot-candidates))))))
+                (priority-class
+                 (string-append "p" (number->string (- (length other-languages)
+                                                       (length (filter values dot-candidates)))))))
            `(tr ((class ,priority-class))
                 (th ((class "notracket"))
                     (a ((href ,(format "https://rosettacode.org/?curid=~a" (hash-ref n 'pageid))))
