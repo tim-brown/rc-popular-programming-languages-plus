@@ -11,7 +11,7 @@
          wikimedia-api:query-categorymembers
          wikimedia-api-logger
          
-         ns=0?)
+         wikimedia-api:ns=0?)
 
 (define-logger  wikimedia-api)
 (current-logger wikimedia-api-logger)
@@ -95,8 +95,7 @@
       (format  . "json")))  
   (wikimedia-api:query-list (append qry more-query-alist)))
 
-(define ns=0? (match-lambda [(hash-table ('ns 0) _ ...) #t] [_ #f]))
+(define wikimedia-api:ns=0? (match-lambda [(hash-table ('ns 0) _ ...) #t] [_ #f]))
 
 (module+ test
-(wikimedia-api:query-categorymembers "Programming Languages")
-  )
+  (wikimedia-api:query-categorymembers "Programming Languages"))

@@ -38,3 +38,30 @@ background: none;
   max-width: 20em;
 }
 
+.p0 {
+  font-weight: bold;
+  background-color: black;
+  color: red;
+}
+
+.p1 {
+  font-weight: bold;
+  background-color: black;
+  color: orange;
+}
+
+.p2 {
+  font-weight: bold;
+  background-color: black;
+  color: yellow;
+}
+
+.p3 {
+  font-weight: bold;
+  color: red;
+}
+
+.p4 {
+  font-weight: bold;
+  color: orange;
+}
