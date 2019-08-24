@@ -65,3 +65,43 @@ background: none;
   font-weight: bold;
   color: orange;
 }
+
+.p0:link {
+  color: red;
+}
+
+.p1:link {
+  color: orange;
+}
+
+.p2:link {
+  color: yellow;
+}
+
+.p3:link {
+  color: red;
+}
+
+.p4:link {
+  color: orange;
+}
+
+.p0:visited {
+  color: #aa0000;
+}
+
+.p1:visited {
+  color: #aa8800;
+}
+
+.p2:visited {
+  color: #aaaa00;
+}
+
+.p3:visited {
+  color: #aa0000;
+}
+
+.p4:visited {
+  color: #aa8800;
+}
