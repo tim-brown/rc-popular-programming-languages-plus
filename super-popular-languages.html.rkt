@@ -128,7 +128,7 @@
                                                   langauge->tasks-implemented-in-language-not-racket))
 
   (if (dict? sorted-result)
-      `((table (tr (td (result->table result)) (td ,competition-tbl))))
+      `((table (tr (td ,(result->table sorted-result)) (td ,competition-tbl))))
       (list (extract-html-body sorted-result) "\n" contact-tim)))
 
 ;;---------------------------------------------------------------------------------------------------
