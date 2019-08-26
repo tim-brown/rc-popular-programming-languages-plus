@@ -40,20 +40,21 @@ background: none;
 
 .p0 {
   font-weight: bold;
-  background-color: black;
   color: red;
+  border-color: red;
 }
 
 .p1 {
   font-weight: bold;
-  background-color: black;
   color: orange;
+  border-color: orange;
 }
 
 .p2 {
   font-weight: bold;
-  background-color: black;
-  color: yellow;
+  color: black;
+  background-color: yellow;
+  border-color: yellow;
 }
 
 .p3 {
